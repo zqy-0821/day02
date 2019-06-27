@@ -1,0 +1,31 @@
+.left{
+    color:red ;
+    font-size: 20px;
+}
+
+.right{
+    color:blue;
+    font-size: 40px;
+}
+#t1{
+    color:blue;
+    font-size: 40px;
+}
+#t2,.right {
+    border: 1px solid #ccc;
+}
+h1#t1{
+    background-color: aqua;
+}
+.header li{
+    color: red;
+}
+.header> ul{
+    border: 1px solid #ccc;
+}
+.header > ul  :hover {
+    background-color: rgb(255, 192, 227);
+}
+ul::after{
+    content: "hello"
+}
